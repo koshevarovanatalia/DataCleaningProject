@@ -1,0 +1,17 @@
+[33mcommit e659e95055cccbdfc48be8095f628fd317b5d395[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: koshevarovanatalia <koshevarova.natalia@gmail.com>
+Date:   Sat Sep 30 00:15:04 2023 +0300
+
+    second commit
+
+[1mdiff --git a/outliers_lib/find_outliers.py b/outliers_lib/find_outliers.py[m
+[1mindex 8da9809..6c2efca 100644[m
+[1m--- a/outliers_lib/find_outliers.py[m
+[1m+++ b/outliers_lib/find_outliers.py[m
+[36m@@ -59,3 +59,6 @@[m [mdef find_outliers_z_score(data, feature, left=3, right=3, log_scale=False):[m
+     cleaned = data[(x > lower_bound) & (x < upper_bound)][m
+     return outliers, cleaned[m
+ [m
+[32m+[m
+[32m+[m[32mdef new_function(a, b):[m
+[32m+[m[32m    pass[m
